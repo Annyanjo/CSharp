@@ -21,7 +21,7 @@ public class Pessoa{
         set { cpf = value; }
     }
 }
-public class Estudante ; Pessoa{
+public class Estudante : Pessoa{
     private String curso;
 
     //Construtor da classe Estudante
